@@ -1,2 +1,2 @@
 chatgpt:
-  api-key:${CHATGPT_KEY} # gpt API?
+  api-key: ${CHATGPT_KEY} # gpt API?
