@@ -1,13 +1,14 @@
 package com.chatgpt.dto;
 
 import com.theokanning.openai.completion.CompletionRequest;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Getter
 @NoArgsConstructor
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class ChatgptCompletionRequestDto { // Completion 요청 dto
     private String model; // 사용하려는 api 모델
     private String prompt; // 질문 내용
